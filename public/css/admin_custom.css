@@ -4,3 +4,7 @@
 .nav-header {
     text-transform: uppercase;
 }
+#dataTable>tbody>tr:hover {
+    cursor: pointer;
+    background-color: #bce3f9 !important;
+}

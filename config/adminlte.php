@@ -324,12 +324,12 @@ return [
             'submenu' => [
                 [
                     'text' => 'List User',
-                    'url'  => '#',
+                    'url'  => '/admin/users',
                 ],
 
                 [
                     'text' => 'New User',
-                    'url'  => '#',
+                    'url'  => '/admin/users/create',
                 ],
             ],
         ],
