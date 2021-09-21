@@ -318,6 +318,7 @@ return [
         //     'url'        => '#',
         // ],
         ['header' => "management system"],
+        //User Manager
         [
             'text'    => "User's Management",
             'icon'    => 'fas fa-fw fa-share',
@@ -333,6 +334,7 @@ return [
                 ],
             ],
         ],
+        //Role Manager
         [
             'text'    => "Role's Management",
             'icon'    => 'fas fa-fw fa-share',
@@ -348,6 +350,7 @@ return [
                 ],
             ],
         ],
+        //Customer Manager
         [
             'text'    => "Customer's Management",
             'icon'    => 'fas fa-fw fa-share',
@@ -359,6 +362,21 @@ return [
                 [
                     'text' => 'New Customer',
                     'url'  => '#',
+                ],
+            ],
+        ],
+        //Product Manager
+        [
+            'text'    => "Product's Management",
+            'icon'    => 'fas fa-fw fa-share',
+            'submenu' => [
+                [
+                    'text' => 'List Product',
+                    'url'  => '/admin/products',
+                ],
+                [
+                    'text' => 'New Product',
+                    'url'  => '/admin/products/create',
                 ],
             ],
         ],
